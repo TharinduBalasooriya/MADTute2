@@ -11,14 +11,19 @@
         android:layout_width="257dp"
         android:layout_height="46dp"
         android:text="@string/Msg1"
-        tools:layout_editor_absoluteX="83dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="140dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="264dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
